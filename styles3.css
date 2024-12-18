@@ -1,0 +1,164 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Hero Section */
+#hero {
+    background-image: url("https://th.bing.com/th/id/R.c0fb8d8ea31064e6efcd489d3eeea6b1?rik=vxoaNUCdTKCpMw&riu=http%3a%2f%2fteamcardelight.com%2fwp-content%2fuploads%2f2024%2f02%2fNew-2024-Tata-Safari-Red-Dark-Edition-Revealed-Does-it-Get-Any-New-Features_.png&ehk=inXT4s9NatfkkEyD4%2beEPqrZINuLGAaKZ01mBneqHpo%3d&risl=&pid=ImgRaw&r=0");
+    background-size:auto;
+   
+   
+    color: red;
+    height:610px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+#hero .hero-text h2 {
+    font-size: 50px;
+}
+
+#hero .btn {
+    padding: 10px 20px;
+    background-color: #f5b800;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* Features Section */
+#features {
+    padding: 40px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+#features h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    width: 30%;
+    padding: 20px;
+    background-color: #eaeaea;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.feature-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+/* Specifications Section */
+#specs {
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+#specs h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#specs ul {
+    list-style: none;
+    text-align: center;
+}
+
+#specs ul li {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact form input, #contact form textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+#contact form button {
+    padding: 10px 20px;
+    background-color: #f5b800;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
