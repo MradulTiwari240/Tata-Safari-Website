@@ -1,0 +1,54 @@
+/* Header */
+header {
+    background: #222;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/* Gallery Section */
+#gallery {
+    background-color: #fff;
+    padding: 40px;
+    text-align:center;
+}
+
+#gallery h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-gallery img {
+    width: 30%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
